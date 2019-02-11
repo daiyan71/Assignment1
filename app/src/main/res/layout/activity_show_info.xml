@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ShowInfo"
+    android:orientation="vertical"
+    android:gravity="center"
+    >
+    <SeekBar
+        android:id="@+id/seekbarId"
+        android:max="10"
+        android:layout_width="240dp"
+        android:layout_height="20dp"
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/seekTextView"
+        android:layout_margin="10dp"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:textColor="#2b2727"
+        android:textStyle="bold"
+        />
+    <RatingBar
+        android:id="@+id/ratingBarId"
+        android:layout_width="240dp"
+        android:layout_height="45dp"
+        android:numStars="5"
+        android:stepSize="1"
+
+
+        />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/ratingTextView"
+        android:background="#e1dfdf"
+        android:layout_margin="10dp"
+        android:layout_width="240dp"
+        android:layout_height="30dp"
+        android:textColor="#2b2727"
+        android:textStyle="bold"
+        />
+    <RadioGroup
+        android:id="@+id/radioGroupId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radioButtonID1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/male"/>
+        <RadioButton
+            android:id="@+id/radioButtonID2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/female"
+            />
+    </RadioGroup>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/showId"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="SHOW"
+            android:textSize="12dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/radioTextView"
+            android:background="#e1dfdf"
+            android:layout_margin="10dp"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:textColor="#2b2727"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+
+    <CheckBox
+        android:id="@+id/checkBoxId1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CSE"/>
+    <CheckBox
+        android:id="@+id/checkBoxId2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EEE"/>
+    <CheckBox
+        android:id="@+id/checkBoxId3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MPE"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/viewId"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:text="VIEW"
+            android:textSize="12dp"
+            android:layout_margin="10dp"/>
+        <TextView
+            android:gravity="center"
+            android:id="@+id/checkTextView"
+            android:background="#e1dfdf"
+            android:layout_margin="10dp"
+            android:layout_width="240dp"
+            android:layout_height="30dp"
+            android:textColor="#2b2727"
+            android:textStyle="bold"
+            />
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

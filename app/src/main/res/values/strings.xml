@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="infoButton">EditText,Toast,TextView,Date and Time picker</string>
+    <string name="dateButton">Date And Time</string>
+    <string name="seeInfoButton">RadioButton,CheckBox,RatingBar,SeekBar</string>
+    <string name="yourName">Enter your name</string>
+    <string name="birthDate">Set your birht date</string>
+    <string name="birthTime">Set your birht time</string>
+    <string name="DONE">DONE</string>
+    <string name="male">MALE</string>
+    <string name="female">FEMALE</string>
+    <string name="color">Choose Background color</string>
+
+</resources>

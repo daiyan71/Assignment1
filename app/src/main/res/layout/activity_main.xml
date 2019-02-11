@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:id="@+id/giveInfoButton"
+        android:layout_margin="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/infoButton"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+
+        />
+    <Button
+        android:id="@+id/seeInfoButton"
+        android:layout_margin="20dp"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:text="@string/seeInfoButton"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/color"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="#cecaca"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/colorButton1"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="#d40f29"
+
+            />
+        <Button
+            android:id="@+id/colorButton2"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="#0fd426"
+
+            />
+        <Button
+            android:id="@+id/colorButton3"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="#f1e152"
+
+            />
+        <Button
+            android:id="@+id/colorButton4"
+            android:layout_margin="10dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:textStyle="bold"
+            android:background="#0f1fd4"
+
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
